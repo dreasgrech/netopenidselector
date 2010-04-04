@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<providers>
+  <provider name="OpenID">
+    <image>openid.png</image>
+    <url>{u}</url>
+  </provider>
+  <provider name="AOL">
+    <image>aol.png</image>
+    <url>openid.aol.com/{u}</url>
+  </provider>
+  <provider name="Google">
+    <image>google.png</image>
+    <url>https://www.google.com/accounts/o8/id</url>
+  </provider>
+  <provider name="Yahoo">
+    <image>yahoo.png</image>
+    <url>http://yahoo.com/</url>
+  </provider>
+  <provider name="MyOpenID">
+    <image>myopenid.png</image>
+    <url>{u}.myopenid.com</url>
+  </provider>
+  <provider name="Flickr">
+    <image>flickr.png</image>
+    <url>flickr.com/{u}</url>
+  </provider>
+  <provider name="Technorati">
+    <image>technorati.png</image>
+    <url>technorati.com/people/technorati/{u}</url>
+  </provider>
+  <provider name="Wordpress">
+    <image>wordpress.png</image>
+    <url>{u}.wordpress.com</url>
+  </provider>
+  <provider name="Blogger">
+    <image>blogger.png</image>
+    <url>{u}.blogspot.com</url>
+  </provider>
+  <provider name="LiveJournal">
+    <image>livejournal.png</image>
+    <url>{u}.livejournal.com</url>
+  </provider>
+  <provider name="ClaimID">
+    <image>claimid.png</image>
+    <url>claimid.com/{u}</url>
+  </provider>
+  <provider name="Vidoop">
+    <image>vidoop.png</image>
+    <url>{u}.myvidoop.com</url>
+  </provider>
+  <provider name="Verisign">
+    <image>verisign.png</image>
+    <url>{u}.pip.verisignlabs.com</url>
+  </provider>
+</providers>
