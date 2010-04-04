@@ -1,5 +1,0 @@
-C:\Users\Andreas\Documents\Visual Studio 2008\Projects\OpenIDSelector\OpenIDSelector\bin\Debug\OpenIDSelector.dll
-C:\Users\Andreas\Documents\Visual Studio 2008\Projects\OpenIDSelector\OpenIDSelector\bin\Debug\OpenIDSelector.pdb
-C:\Users\Andreas\Documents\Visual Studio 2008\Projects\OpenIDSelector\OpenIDSelector\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Andreas\Documents\Visual Studio 2008\Projects\OpenIDSelector\OpenIDSelector\obj\Debug\OpenIDSelector.dll
-C:\Users\Andreas\Documents\Visual Studio 2008\Projects\OpenIDSelector\OpenIDSelector\obj\Debug\OpenIDSelector.pdb

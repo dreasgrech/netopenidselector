@@ -1,7 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<providers>
-  <provider name="Domingo">
-    <image>vote.png</image>
-    <url>www.domingo.com/{u}/openid</url>
-  </provider>
-</providers>
