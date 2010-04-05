@@ -1,3 +1,4 @@
+#summary Getting started with NETOpenIDSelector
 #labels Phase-Deploy,Phase-Implementation
 
 = Quick Start=
