@@ -1,0 +1,33 @@
+#summary How to add custom Providers through an XML file
+#labels Phase-Implementation
+
+= Add Providers with an XML file =
+
+The control already comes with a number of preset providers, but it also allows you to add your own custom Providers.
+
+In this page, I will show an example of how to add 2 new Providers via an xml file.
+
+The XML must have the following format:
+
+{{{
+<?xml version="1.0" encoding="utf-8" ?>
+<providers>
+  <provider name="A Direct Provider">
+    <image>images/directprovider.png</image>
+    <url>www.providerpage.com</url>
+  </provider>
+  <provider name="A Username Provider">
+    <image>images/usernameprovider.png</image>
+    <url>www.providerpage.com/{u}</url>
+  </provider>
+</providers>
+}}}
+
+The Providers are then added like such:
+
+{{{
+protected void Page_Load(object sender, EventArgs e) 
+{
+    NETOpenIDSelector1.AddProviders("xml/providers.xml");
+}
+}}}
