@@ -7,13 +7,12 @@ The control already comes with a number of preset providers, but it also allows 
 In this page, I will show an example of how to add 2 new Providers via code:
 
 {{{
-protected void Page_Load(object sender, EventArgs e) {
-
+protected void Page_Load(object sender, EventArgs e) 
+{
     Provider directProvider = new Provider("Some custom provider", "www.providerpage.com", "images/directprovider.png");
     Provider usernameProvider = new Provider("Some custom provider", "www.providerpage.com/{u}", "images/usernameprovider.png");
     
     NETOpenIDSelector1.AddProvider(directProvider);
     NETOpenIDSelector1.AddProvider(usernameProvider);
-
 }
 }}}
