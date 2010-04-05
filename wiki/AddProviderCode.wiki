@@ -1,4 +1,4 @@
-#summary This page describes how to add a provider programmatically
+#summary How to add a provider programmatically
 #labels Phase-Implementation
 
 = Add a Provider using code =
