@@ -1,0 +1,22 @@
+#labels Phase-Deploy,Phase-Implementation
+
+= Quick Start=
+
+  # Download the NETOpenIDSelector Control
+  # Add a reference to the control in your website
+  # Add the Control to your Toolbox
+  # Drag the NETOpenIDSelector Control to your page, and you will get the following:
+{{{
+<OpenIDSelector:NETOpenIDSelector ID="NETOpenIDSelector1" runat="server" LoadjQuery="true" />
+}}}
+  # In your code behind, add the following callback:
+{{{
+protected void Selected(object sender, ProviderChosenEventArgs selector)
+{
+    string url = selector.SelectorURL;
+}
+}}}
+  # Finally, set the OnSelectorChosen event to handle your callback, from the page:
+{{{
+<OpenIDSelector:NETOpenIDSelector ID="NETOpenIDSelector1" runat="server" LoadjQuery="true" OnSelectorChosen="Selected" />
+}}}
