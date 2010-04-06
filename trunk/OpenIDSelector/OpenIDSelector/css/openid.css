@@ -1,0 +1,52 @@
+﻿body {font-family: Arial;}
+fieldset {border-style:none;}
+img {border-style:none;}
+
+.openid ul { text-align:center; list-style-type:none; display:inline;}
+.openid ul li {float:left; padding:4px;}
+.openid ul li span {padding:0 1em 0 3px}
+.openid fieldset {clear:both; padding:1em 0}
+.openid div+fieldset {display:none}
+.openid label {display:inline; font-weight:bold; font-size:larger; margin-bottom:.5em}
+input.openid_username {width:8em}
+input.openid_identifier {width:18em}
+.openid ul li.highlight { -moz-border-radius:4px; -webkit-border-radius:4px; background-color: #FD6}
+.openid fieldset div {font-family:arial;-moz-border-radius:4px; -webkit-border-radius:4px; 
+                          background: #DCDCDC url(../images/fadegrey.png); padding:10px;display:inline-block}
+.openid input[type='submit'] {margin-left:1em;}
+
+.openid_logo{color:#F7931E;padding:6px 0px 8px 28px; background: url(../images/openidico.png) no-repeat}
+
+#openid_login{float:left; font-size:larger; width:30%; margin:2em 1em; text-align:center}
+#openid_login div{margin-top:0.5em}
+#openid_login div+span{font-size:smaller}
+
+.openid fieldset img 
+{
+	margin-right:15px;
+}
+.fullfield 
+{
+	display:none;
+}
+
+.openid .providers  li 
+{
+	cursor:pointer;
+	line-height:0;
+}
+
+.openid .submitopenid 
+{
+	display:none;
+}
+
+.openid .openid_submit 
+{
+	margin-left:10px;
+}
+
+.toclear 
+{
+	clear:both;
+}

@@ -1,0 +1,7 @@
+C:\Users\Andreas\Documents\Visual Studio 2008\Projects\OpenIDSelector\OpenIDSelectorImplementation\bin\OpenIDSelectorImplementation.dll
+C:\Users\Andreas\Documents\Visual Studio 2008\Projects\OpenIDSelector\OpenIDSelectorImplementation\bin\OpenIDSelectorImplementation.pdb
+C:\Users\Andreas\Documents\Visual Studio 2008\Projects\OpenIDSelector\OpenIDSelectorImplementation\bin\OpenIDSelector.dll
+C:\Users\Andreas\Documents\Visual Studio 2008\Projects\OpenIDSelector\OpenIDSelectorImplementation\bin\OpenIDSelector.pdb
+C:\Users\Andreas\Documents\Visual Studio 2008\Projects\OpenIDSelector\OpenIDSelectorImplementation\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Andreas\Documents\Visual Studio 2008\Projects\OpenIDSelector\OpenIDSelectorImplementation\obj\Release\OpenIDSelectorImplementation.dll
+C:\Users\Andreas\Documents\Visual Studio 2008\Projects\OpenIDSelector\OpenIDSelectorImplementation\obj\Release\OpenIDSelectorImplementation.pdb
