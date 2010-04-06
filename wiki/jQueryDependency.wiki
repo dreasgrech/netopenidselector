@@ -1,0 +1,15 @@
+#summary jQuery Dependency
+#labels Phase-Deploy
+
+= jQuery Dependency =
+The NetOpenIDSelector control depends on jQuery because of the JavaScript that it uses.  
+
+Therefore, the control exposes a Property called LoadjQuery and if it is set to true, the control loads jQuery automatically:
+
+{{{
+<OpenIDSelector:NETOpenIDSelector ID="NETOpenIDSelector1" runat="server" LoadjQuery="true" OnSelectorChosen="Selected" />
+}}}
+
+http://lh3.ggpht.com/_xl08dEExoZk/S7sCHSRCdUI/AAAAAAAAA0E/b05_Q3E7ags/jquerydependency.png
+
+If LoadjQuery is not set to true, then you must manually load jQuery yourself.
