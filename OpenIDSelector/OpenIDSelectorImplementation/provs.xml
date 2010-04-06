@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<providers>
+  <provider name="MySpace">
+    <image>myspace.png</image>
+    <url>http://www.myspace.com/{u}</url>
+  </provider>
+</providers>
